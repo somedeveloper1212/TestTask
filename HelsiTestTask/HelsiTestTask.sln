@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelsiTestTask.Api", "HelsiTestTask.Api\HelsiTestTask.Api.csproj", "{0C573DCE-4D64-4560-A30A-1DE88598D9D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelsiTestTask.Application", "HelsiTestTask.Application\HelsiTestTask.Application.csproj", "{A4D11562-D702-46CE-B980-557AE44007DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelsiTestTask.Infrastructure", "HelsiTestTask.Infrastructure\HelsiTestTask.Infrastructure.csproj", "{1F576CFE-30E1-4C60-B13E-9C4834ED6FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelsiTestTask.Domain", "HelsiTestTask.Domain\HelsiTestTask.Domain.csproj", "{87E7FFBD-7206-48CD-B194-0FC8F5EAAC43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C573DCE-4D64-4560-A30A-1DE88598D9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C573DCE-4D64-4560-A30A-1DE88598D9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C573DCE-4D64-4560-A30A-1DE88598D9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C573DCE-4D64-4560-A30A-1DE88598D9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D11562-D702-46CE-B980-557AE44007DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D11562-D702-46CE-B980-557AE44007DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D11562-D702-46CE-B980-557AE44007DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D11562-D702-46CE-B980-557AE44007DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F576CFE-30E1-4C60-B13E-9C4834ED6FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F576CFE-30E1-4C60-B13E-9C4834ED6FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F576CFE-30E1-4C60-B13E-9C4834ED6FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F576CFE-30E1-4C60-B13E-9C4834ED6FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E7FFBD-7206-48CD-B194-0FC8F5EAAC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E7FFBD-7206-48CD-B194-0FC8F5EAAC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E7FFBD-7206-48CD-B194-0FC8F5EAAC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E7FFBD-7206-48CD-B194-0FC8F5EAAC43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
