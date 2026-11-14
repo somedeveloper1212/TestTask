@@ -1,6 +1,7 @@
 ﻿using HelsiTestTask.Domain.TaskLists;
 using HelsiTestTask.Infrastructure.Common;
 using HelsiTestTask.Infrastructure.MongoDb.Entities;
+using HelsiTestTask.Infrastructure.MongoDb.Indexes;
 using HelsiTestTask.Infrastructure.MongoDb.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,6 +16,7 @@ public static class DiRegistration
     {
         services.AddMongoCollection<TaskListEntity>(CollectionNames.TaskLists);
         services.AddScoped<ITaskListsRepository, TaskListsRepository>();
+        services.AddHostedService<MongoIndexesHostedService>();
 
         return services;
     }
