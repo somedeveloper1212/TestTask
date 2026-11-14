@@ -16,7 +16,7 @@ public static class DiRegistration
     {
         services.AddMongoCollection<TaskListEntity>(CollectionNames.TaskLists);
         services.AddScoped<ITaskListsRepository, TaskListsRepository>();
-        services.AddHostedService<MongoIndexesInitializer>();
+        services.AddHostedService<MongoIndexesHostedService>();
 
         return services;
     }

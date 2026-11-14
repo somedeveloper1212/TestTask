@@ -8,11 +8,11 @@ namespace HelsiTestTask.Infrastructure.MongoDb.Indexes;
 /// Creates the MongoDB indexes on application startup, before the app starts serving requests.
 /// Creating an index that already exists with the same keys and options is a no-op.
 /// </summary>
-public class MongoIndexesInitializer : IHostedService
+public class MongoIndexesHostedService : IHostedService
 {
     private readonly IMongoCollection<TaskListEntity> _taskLists;
 
-    public MongoIndexesInitializer(IMongoCollection<TaskListEntity> taskLists)
+    public MongoIndexesHostedService(IMongoCollection<TaskListEntity> taskLists)
     {
         _taskLists = taskLists;
     }
